@@ -15,7 +15,6 @@
   <properties key="ideCompatibility" value="iar-embedded-workbench makefile-ide simplicity-ide visual-studio-code"/>
   <properties key="stockConfigCompatibility" value="com.silabs.ss.framework.project.toolchain.core.default"/>
  </descriptors>
- <model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
  <descriptors name="fae_test" description="Basic empty test project" label="EMEA FAE - TEST">
   <properties key="namespace" value="template.uc"/>
   <properties key="keywords" value="universal\ configurator"/>

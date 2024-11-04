@@ -17,16 +17,16 @@ package: platform
 quality: evaluation
 
 readme:
-- path: ../readme.md
+- path: ../README.md
 
 source:
 - path: ../src/main.c
 - path: ../src/app.c
 
 include:
-- path: ../inc
+- path: ../inc/
   file_list:
-    - path: ../inc/app.h
+  - path: ../inc/app.h
 
 component:
 - id: clock_manager
@@ -38,6 +38,6 @@ define:
 
 ui_hints:
   highlight:
-  - path: readme.md
+  - path: README.md
     focus: true
 

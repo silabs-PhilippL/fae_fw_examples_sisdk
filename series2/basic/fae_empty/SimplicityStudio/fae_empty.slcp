@@ -27,6 +27,7 @@ source:
 
 include:
 - path: ../inc/
+  directory: "inc"
   file_list:
   - path: ../inc/app.h
 

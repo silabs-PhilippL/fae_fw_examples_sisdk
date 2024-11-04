@@ -8,7 +8,7 @@
   <properties key="category" value="MCU"/>
   <properties key="toolchainCompatibility" value="gcc iar segger"/>
   <properties key="readmeFiles" value="series2/basic/fae_empty/readme.md"/>
-  <properties key="projectFilePaths" value="series2/basic/fae_empty/SimplicityStudio/fae_empty,slcp"/>
+  <properties key="projectFilePaths" value="series2/basic/fae_empty/SimplicityStudio/fae_empty.slcp"/>
   <properties key="ideCompatibility" value="iar-embedded-workbench makefile-ide simplicity-ide visual-studio-code"/>
   <properties key="stockConfigCompatibility" value="com.silabs.ss.framework.project.toolchain.core.default"/>
  </descriptors>

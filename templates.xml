@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
  <descriptors name="fae_empty" description="Basic empty MCU project" label="EMEA FAE - EMPTY">
+  <properties key="namespace" value="template.uc"/>
+  <properties key="keywords" value="universal\ configurator"/>
   <properties key="boardCompatibility" value="brd4204d brd2601b"/>
-  <properties key="partCompatibility" value=".*efr32[x]g24.* .*efr32[x]g23.*"/>
+  <properties key="partCompatibility" value=".*efr32mg24.* .*efr32mg27.* .*efr32mr21.* .*efr32zg23.*"/>
   <properties key="defaultName" value="FAE_empty"/>
   <properties key="quality" value="Evaluation"/>
   <properties key="category" value="MCU"/>
   <properties key="toolchainCompatibility" value="gcc iar segger"/>
   <properties key="readmeFiles" value="series2/basic/fae_empty/readme.md"/>
+  <properties key="solutionReferenceId" value="series2/basic/fae_empty/SimplicityStudio/fae_empty.slcp"/>
   <properties key="projectFilePaths" value="series2/basic/fae_empty/SimplicityStudio/fae_empty.slcp"/>
   <properties key="ideCompatibility" value="iar-embedded-workbench makefile-ide simplicity-ide visual-studio-code"/>
   <properties key="stockConfigCompatibility" value="com.silabs.ss.framework.project.toolchain.core.default"/>

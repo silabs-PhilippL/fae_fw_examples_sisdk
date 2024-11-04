@@ -20,8 +20,11 @@ readme:
 - path: README.md
 
 source:
-- path: main.c
-- path: app.c
+- path: .
+  directory: "src"
+  file_list:
+  - path: main.c
+  - path: app.c
 
 include:
 - path: .

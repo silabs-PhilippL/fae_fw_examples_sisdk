@@ -4,6 +4,7 @@
   <properties key="namespace" value="template.uc"/>
   <properties key="keywords" value="universal\ configurator"/>
   <properties key="stockConfigCompatibility" value="com.silabs.ss.framework.project.toolchain.core.default"/>
+  <properties key="filters" value="Device\ Type|SoC Project\ Difficulty|Advanced Wireless\ Technology|RAIL MCU|32-bit\ MCU"/>
   <properties key="boardCompatibility" value="brd4204d brd2601b brd2602a brd4181c brd4180a"/>
   <properties key="partCompatibility" value=".*efr32mg24.* .*efr32mg27.* .*efr32mr21.* .*efr32zg23.*"/>
   <properties key="defaultName" value="FAE_empty"/>
@@ -18,6 +19,7 @@
   <properties key="namespace" value="template.uc"/>
   <properties key="keywords" value="universal\ configurator"/>
   <properties key="stockConfigCompatibility" value="com.silabs.ss.framework.project.toolchain.core.default"/>
+  <properties key="filters" value="Device\ Type|SoC Project\ Difficulty|Advanced Wireless\ Technology|RAIL MCU|32-bit\ MCU"/>
   <properties key="boardCompatibility" value="brd4204d"/>
   <properties key="partCompatibility" value=".*efr32zg23.*"/>
   <properties key="defaultName" value="FAE_TEST"/>

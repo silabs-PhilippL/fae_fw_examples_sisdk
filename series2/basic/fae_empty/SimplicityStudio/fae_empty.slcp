@@ -21,7 +21,9 @@ readme:
 
 source:
 - path: ../src/main.c
+  directory: "src"
 - path: ../src/app.c
+  directory: "src"
 
 include:
 - path: ../inc/

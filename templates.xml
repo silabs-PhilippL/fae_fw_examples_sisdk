@@ -1,33 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
- <descriptors name="fae_empty" description="Basic empty MCU project" label="EMEA FAE - EMPTY">
+ <descriptors description="Basic empty MCU project" label="EMEA FAE - EMPTY" name="fae_empty">
   <properties key="namespace" value="template.uc"/>
   <properties key="keywords" value="universal\ configurator"/>
-  <properties key="boardCompatibility" value="brd4204d brd2601b"/>
+  <properties key="stockConfigCompatibility" value="com.silabs.ss.framework.project.toolchain.core.default"/>
+  <properties key="boardCompatibility" value="brd4204d brd2601b brd2602a brd4181c brd4180a"/>
   <properties key="partCompatibility" value=".*efr32mg24.* .*efr32mg27.* .*efr32mr21.* .*efr32zg23.*"/>
   <properties key="defaultName" value="FAE_empty"/>
-  <properties key="quality" value="Evaluation"/>
+  <properties key="quality" value="Experimental"/>
   <properties key="category" value="MCU"/>
   <properties key="toolchainCompatibility" value="gcc iar segger"/>
-  <properties key="readmeFiles" value="series2/basic/fae_empty/readme.md"/>
-  <properties key="solutionReferenceId" value="series2/basic/fae_empty/SimplicityStudio/fae_empty.slcp"/>
+  <properties key="readmeFiles" value="series2/basic/fae_empty/README.md"/>
   <properties key="projectFilePaths" value="series2/basic/fae_empty/SimplicityStudio/fae_empty.slcp"/>
   <properties key="ideCompatibility" value="iar-embedded-workbench makefile-ide simplicity-ide visual-studio-code"/>
-  <properties key="stockConfigCompatibility" value="com.silabs.ss.framework.project.toolchain.core.default"/>
  </descriptors>
- <descriptors name="fae_test" description="Basic empty test project" label="EMEA FAE - TEST">
+ <descriptors description="Test Project" label="EMEA FAE - TEST" name="fae_test">
   <properties key="namespace" value="template.uc"/>
   <properties key="keywords" value="universal\ configurator"/>
-  <properties key="boardCompatibility" value="brd4204d brd2601b"/>
-  <properties key="partCompatibility" value=".*efr32mg24.* .*efr32mg27.* .*efr32mr21.* .*efr32zg23.*"/>
-  <properties key="defaultName" value="FAE_Test"/>
-  <properties key="quality" value="Evaluation"/>
+  <properties key="stockConfigCompatibility" value="com.silabs.ss.framework.project.toolchain.core.default"/>
+  <properties key="boardCompatibility" value="brd4204d"/>
+  <properties key="partCompatibility" value=".*efr32zg23.*"/>
+  <properties key="defaultName" value="FAE_TEST"/>
+  <properties key="quality" value="Experimental"/>
   <properties key="category" value="MCU"/>
-  <properties key="toolchainCompatibility" value="gcc iar segger"/>
+  <properties key="toolchainCompatibility" value="gcc"/>
   <properties key="readmeFiles" value="fae_test/README.md"/>
-  <properties key="solutionReferenceId" value="fae_test/fae_test.slcp"/>
   <properties key="projectFilePaths" value="fae_test/fae_test.slcp"/>
   <properties key="ideCompatibility" value="iar-embedded-workbench makefile-ide simplicity-ide visual-studio-code"/>
-  <properties key="stockConfigCompatibility" value="com.silabs.ss.framework.project.toolchain.core.default"/>
  </descriptors>
 </model:MDescriptors>

@@ -11,25 +11,33 @@ filter:
   value: [32-bit MCU]
 - name: Project Difficulty
   value: [Beginner]
+
 package: platform
-quality: production
+
+quality: evaluation
+
 readme:
 - path: ../readme.md
+
 source:
 - path: ../src/main.c
 - path: ../src/app.c
+
 include:
-  - path: ../inc
-    file_list:
-      - path: app.h
-toolchain_settings: []
+- path: ../inc
+  file_list:
+    - path: ../inc/app.h
+
 component:
-- {id: clock_manager}
-- {id: device_init}
-- {id: sl_system}
+- id: clock_manager
+- id: device_init
+- id: sl_system
+
 define:
-- {name: DEBUG_EFM}
+- name: DEBUG_EFM
+
 ui_hints:
   highlight:
-  - {path: readme.md, focus: true}
+  - path: readme.md
+    focus: true
 
